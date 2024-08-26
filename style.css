@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('Norse-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Norse';
+}
+
+body {
+    background-color: bisque;
+    color: rgb(27, 5, 5);
+}
+
+.main-wrapper {
+    display: flex;
+    height: 100vh;
+
+}
+
+
+.bl {
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+}
+
+.main-picture {
+    flex-basis: 50%;
+    min-width: 10rem;
+}
+
+.main-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.form input {
+    height: 2rem;
+    outline: none;
+    
+}
+.form button {
+    background-color: rgb(173, 102, 40);
+    height: 2rem;
+    width: 7rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form input:focus {
+    border: 2px solid rgb(173, 102, 40);
+}
