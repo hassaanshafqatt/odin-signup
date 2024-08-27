@@ -84,6 +84,15 @@ body {
     justify-content: center;
 }
 
+.footer-content a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.12rem;
+
+}
+.footer-content a:hover {
+    color: whitesmoke;
+}
 
 .form input:focus {
     border: 2px solid rgb(173, 102, 40);
